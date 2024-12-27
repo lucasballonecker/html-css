@@ -3,24 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: black;
+           /* background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+
+           shorthand-background 
+        color>image>position>repeat>[size]>attachment*/
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat  fixed;
             background-size: cover;
 
         }
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 1px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+            padding: 10px;
             
 
         }
@@ -49,7 +56,7 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, cupiditate cumque? Exercitationem pariatur, perspiciatis, odio ipsum quos facilis libero in neque nam culpa distinctio hic cum perferendis earum ab temporibus?
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem inventore sapiente, eius omnis velit commodi, consequatur, incidunt dolore minus quod recusandae perferendis laborum quaerat facere suscipit eaque beatae odit necessitatibus.
         </p>
-        
+
     </main>
 </body>
 </html>
