@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 *{
     margin: 0px;
     padding: 0px;
@@ -18,7 +19,7 @@ main{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 250px;
-    height: 500px;
+    height: 520px;
     background-color: white;
     border-radius: 10px;
    
@@ -29,10 +30,47 @@ h2{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+    
+
+.area{
+    background-color: #5F2C82;
+    border-radius: 10px;
+    padding:0px 0px 6px 0px;
+    width: 210px;
+    margin: auto;
+    margin-top: 5px;
+
+   
+}
+.material-symbols-outlined{
+    color: white;
+    
+     
+}
+
+
+
 #paragrafo{
     padding: 10px;
     margin-bottom: 10px;
     font-size: 0.8em;
+}
+#email{
+    padding-top: 5px;
+    padding-left: 5px;
+    border-top: 1px solid black;
+    border-radius: 5px;
+
+  
+}
+#senha{
+    padding-top: 5px;
+    padding-left: 5px;
+    border-top: 1px solid black;
+    border-radius: 5px;
+  
 }
 
 
@@ -46,4 +84,36 @@ h2{
     height: 200px;
  
     
+}
+#entrar{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 210px;
+    padding: 8px 0px 8px 0px;
+    background-color: #47c5c1d4;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+
+}
+#esqueci{
+    width: 210px;
+    display: block;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 8px 0px 8px 0px;
+    font-size: 1.2em;
+    color: #3D6462;
+    cursor: pointer;
+    
+
+}
+#entrar:hover{
+    background-color:#2D6462;
+}
+#esqueci:hover{
+    background-color: #6CD3CF;
 }

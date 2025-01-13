@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/mobile.css" media="all">
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=person,vpn_key" />
+
+
+   
+   
     <title>Login</title>
 </head>
 <body>
@@ -12,24 +17,28 @@
     </div>
     <h2>Login</h2>
     <p id="paragrafo">Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
-    <form action="dados.php" method="post">
-        <p>
-            <label for="email">icon user</label>
-            <input type="email" name="email" id="email">
+    <form action="dados.php" method="post" >
+        <p class="area">
+            <span class="material-symbols-outlined">
+                person
+                </span>
+            <input type="email" name="email" id="email" required>
         </p>
-        <p>
-            <label for="senha">icon pass</label>
-            <input type="password" name="senha" id="senha">
+        <p class="area">
+            <span class="material-symbols-outlined">
+                vpn_key
+                </span>
+            <input type="password" name="senha" id="senha" required  minlength="8">
         </p>
     </form>
         <form action="entrar.php">
             <p>
-                <input type="submit" value="Entrar">
+                <input type="submit" value="Entrar" id="entrar">
             </p>
         </form>
         <form action="esqueci.html">
             <p>
-                <input type="submit" value="Esqueci a senha">
+                <input type="submit" value="Esqueci a senha" id="esqueci">
             </p>
         </form>
     
